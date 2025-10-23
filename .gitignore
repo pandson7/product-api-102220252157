@@ -1,0 +1,25 @@
+# CDK specific
+cdk-app/node_modules/
+cdk-app/cdk.out/
+cdk-app/.env
+
+# Lambda specific  
+cdk-app/lambda/node_modules/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
